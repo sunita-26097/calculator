@@ -1,0 +1,57 @@
+
+.calculator {
+    background-color: black;
+    max-width: 400px;
+    
+    padding: 40px;
+    margin: 0 auto;
+    border-radius: 20px; 
+}
+input {
+    background-color: white;
+    width: 95%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.calc_buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    margin-top: 10px;
+    border: none;
+
+}
+.calc_button > button {
+    border: none;
+}
+.reset {
+    grid-column: span 2;
+    background-color: powderblue;
+    border: none;
+    border-radius: 4px;
+}
+.equal {
+    grid-column: span 2;
+    background-color: brown;
+    border: none;
+    color: white;
+    border-radius: 4px;
+}
+.del {
+    background-color: powderblue;
+    border: none;
+    border-radius: 4px;
+}
+.number {
+    border: none;
+    border-radius: 4px;
+}
+.operator {
+    border: none;
+    border-radius: 4px;
+}
+.decimal {
+    border: none;
+    border-radius: 4px;
+}
